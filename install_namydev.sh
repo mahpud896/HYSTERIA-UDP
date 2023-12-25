@@ -13,7 +13,7 @@ set -e
 ###
 
 # Domain Name
-DOMAIN="getnamydev.site"
+DOMAIN="sg1-server.my.id"
 
 # PROTOCOL
 PROTOCOL="udp"
@@ -25,7 +25,7 @@ UDP_PORT=":36712"
 OBFS="namydev"
 
 # PASSWORDS
-PASSWORD="namydev:namydev"
+PASSWORD="123"
 
 # Basename of this script
 SCRIPT_NAME="$(basename "$0")"
