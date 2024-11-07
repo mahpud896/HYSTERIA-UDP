@@ -13,7 +13,7 @@ set -e
 ###
 
 # Domain Name
-DOMAIN="sg1-server.my.id"
+DOMAIN="54.209.178.25"
 
 # PROTOCOL
 PROTOCOL="udp"
@@ -25,7 +25,7 @@ UDP_PORT=":36712"
 OBFS="namydev"
 
 # PASSWORDS
-PASSWORD="123"
+PASSWORD="namydev"
 
 # Basename of this script
 SCRIPT_NAME="$(basename "$0")"
@@ -668,7 +668,7 @@ tpl_hysteria_server_x_service() {
 tpl_etc_hysteria_config_json() {
   cat << EOF
 {
-  "server": "getnamydev.site",
+  "server": "54.209.178.25",
    "listen": "$UDP_PORT",
   "protocol": "$PROTOCOL",
   "cert": "/etc/hysteria/hysteria.server.crt",
